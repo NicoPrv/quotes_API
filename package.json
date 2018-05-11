@@ -1,0 +1,24 @@
+{
+  "name": "api_quotes",
+  "version": "1.0.0",
+  "description": "Alpha version of quotes API",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoPrv/quotes_API.git"
+  },
+  "author": "Nico",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicoPrv/quotes_API/issues"
+  },
+  "homepage": "https://github.com/NicoPrv/quotes_API#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "node-fetch": "^2.1.2",
+    "pg": "^7.4.3"
+  }
+}
